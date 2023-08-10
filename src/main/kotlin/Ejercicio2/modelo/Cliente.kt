@@ -4,6 +4,6 @@ class Cliente(
     nombre: String,
     cedula: String,
     correoElectronico: String,
-    val direccionCorrespondencia: String,
+    val direccion: String,
     val telefono: String
 ) : Persona(nombre, cedula, correoElectronico)
